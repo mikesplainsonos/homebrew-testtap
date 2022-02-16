@@ -1,5 +1,5 @@
 class Kopstest < Formula
-  desc "kops test"
+  desc "A Kops test formula"
   homepage "https://kops.sigs.k8s.io/"
   url "https://github.com/kubernetes/kops/archive/v1.22.3.tar.gz"
   sha256 "76fb2e20f1d4d54904311c3aec2298ae99dcea5ea8473677a61f6e6c7418d341"
