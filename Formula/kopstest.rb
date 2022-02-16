@@ -12,12 +12,9 @@ class Kopstest < Formula
   end
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "0fe1943d71112f782c2454f1b3694a06603e98eb6451684bf7452066c8533272"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "e62f2eb1836620e847c9351526dad54222e83c6cfb54fab4ddc5224aced6f839"
-    sha256 cellar: :any_skip_relocation, monterey:       "ab5bdda358bc64ce1d52bcace39c730ba7114f98ceb7825d13abb4021db2e9f0"
-    sha256 cellar: :any_skip_relocation, big_sur:        "f3dec44c868ec0ad65086a33bb4c4aea6d94ac115f5c7ee61bf1296bd24db7eb"
-    sha256 cellar: :any_skip_relocation, catalina:       "f0c842d8424346d52b05d72759a931062fb5151a55495b5281796f8ae7fef38c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "9d006913e830fe89f10abc0e3f87be4b40166923062723b5803a2011bfc1e337"
+    root_url "https://ghcr.io/v2/mikesplainsonos/testtap"
+    sha256 cellar: :any_skip_relocation, big_sur:      "70d86303faafdf6bddcca4133df987dca89f24959d724f400e35926d8dc74d6f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3cec279c2bdeb961dc17f459d8140acaf9c9f92411eddffe841a7dff84b896f3"
   end
 
   depends_on "go" => :build
