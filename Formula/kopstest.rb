@@ -1,4 +1,4 @@
-class KopsTest < Formula
+class Kopstest < Formula
   desc "kops test"
   homepage "https://kops.sigs.k8s.io/"
   url "https://github.com/kubernetes/kops/archive/v1.22.3.tar.gz"
